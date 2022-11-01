@@ -6,8 +6,4 @@ body {
 .contentBox {
     margin: 33px 2px 0 2px;
     border: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    gap: auto;
 }
