@@ -4,10 +4,6 @@ body {
     background: rgb(49, 49, 49);
 }
 
-a {
-    text-decoration: none;
-}
-
 .contentBox {
     margin: 33px 2px 0 2px;
     background: rgb(49, 49, 49);
@@ -19,17 +15,28 @@ a {
 
 .bigButton {
     margin: 10px;
+    background-color: rgb(96, 96, 96);
+    max-width: 100%;
+    max-height: 90%;
+    border-radius: 500px;
+}
+.bigButton:active {
+    background-color: darkgray;
+}
+
+@media only screen and (min-width: 600px) {
+    .bigButton {
+    margin: 10px;
     background-color: rgb(49, 49, 49);
     max-width: 100%;
     max-height: 90%;
     border-radius: 500px;
     transition-duration: 1s;
-
-}
-
-.bigButton:hover {
-    background-color: darkgray;
-    transition-duration: 1s;
+    }
+    .bigButton:hover {
+        background-color: darkgray;
+        transition-duration: 1s;
+    }
 }
 
 img {
